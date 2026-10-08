@@ -1,0 +1,21 @@
+{
+  "name": "ncalayerjs",
+  "version": "0.1.0",
+  "description": "Local signing helper compatible with NCALayer, in plain JavaScript",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "ncalayerjs": "bin/ncalayerjs.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test 'test/*.test.mjs'"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "0.8.15",
+    "ws": "8.21.3",
+    "xml-crypto": "6.3.3"
+  }
+}
